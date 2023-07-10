@@ -26,7 +26,7 @@
                 HELLO WORLD
             </h1>
             <p>
-                Hello from {{ $name }}!
+                Hello from {{ $name }} {{ $surname }}!
             </p>
         </div>
     </body>

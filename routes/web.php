@@ -24,9 +24,10 @@ Route::get('/', function () {
 
     //VERSIONE 2
     $name = 'Alessandro';
+    $surname = 'Franco';
 
-    $data = compact('name');
-    dd($data);
+    // $data = compact('name');
+    // dd($data);
 
-    return view('homepage', $data);
+    return view('homepage', compact('name', 'surname'));
 });
