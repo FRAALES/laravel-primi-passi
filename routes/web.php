@@ -31,3 +31,9 @@ Route::get('/', function () {
 
     return view('homepage', compact('name', 'surname'));
 });
+
+
+Route::get('/headermenu', function() {
+
+    return view('headermenu');
+});
