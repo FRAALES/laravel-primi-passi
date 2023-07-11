@@ -6,12 +6,9 @@
     <title>Header</title>
 </head>
 <body>
+    <h1>Questo è l'header</h1>
     <ul>
-        <li><a href="">voce1</a></li>
-        <li><a href="">voce2</a></li>
-        <li><a href="">voce3</a></li>
-        <li><a href="">voce4</a></li>
-        <li><a href="">voce5</a></li>
+        <li><a href="{{ route('homepage') }}">HOMEPAGE</a></li>
     </ul>
 </body>
 </html>

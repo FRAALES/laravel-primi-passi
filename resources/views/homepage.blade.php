@@ -21,13 +21,13 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="container">
             <h1>
                 HELLO WORLD
             </h1>
             <p>
                 Hello from {{ $name }} {{ $surname }}!
             </p>
-        </div>
+            <a href="{{ route('headermenu') }}">VAI ALL'HEADER</a>
     </body>
 </html>
+

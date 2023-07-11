@@ -30,10 +30,10 @@ Route::get('/', function () {
     // dd($data);
 
     return view('homepage', compact('name', 'surname'));
-});
+})->name('homepage');
 
 
 Route::get('/headermenu', function() {
 
     return view('headermenu');
-});
+})->name('headermenu');
